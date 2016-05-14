@@ -1,0 +1,27 @@
+['{{repeat(20)}}',
+{
+  _id: '{{objectId()}}',
+  name: '{{firstName()}} {{surname()}}',
+  year: '{{integer(1, 4)}}',
+  discipline: '{{random("Electrical", "Mechanical", "Chemical", "Civil", "Industrial", "TrackOne", "Materials", "Engineering Science")}}',
+  academicInfo: {
+    registered: '{{date(new Date(2014, 0, 1), new Date(), "YYYY-MM-ddThh:mm:ss Z")}}',
+    status: '{{random("registered", "withdrawn", "probation")}}',
+    peyCompleted: '{{bool()}}',
+    hoursCompelted: '{{bool()}}',
+    graduationYear: '{{integer(2016, 2019)}}',
+    gpa: [
+      '{{repeat(integer(5, 10))}}',
+      '{{floating(1.0, 4.0, 2)}}'
+    ]
+  },
+  registrationInfo: {
+    paid: '{{bool()}}',
+    international: '{{bool()}}'
+  },
+  contactInfo:{
+    email: '{{email()}}',
+    phone: '{{phone()}}'
+  } 
+}
+]
