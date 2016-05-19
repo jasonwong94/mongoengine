@@ -9,5 +9,7 @@ def main():
 	for student in students:
 		students_schema.printStudentInfo(student)
 
+	students_schema.addStudent()
+
 if __name__ == "__main__":
 	main()
