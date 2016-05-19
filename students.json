@@ -8,7 +8,7 @@
       "registered": "2015-03-04T10:45:37 +05:00",
       "status": "registered",
       "peyCompleted": true,
-      "hoursCompelted": false,
+      "hoursCompleted": false,
       "graduationYear": 2017,
       "gpa": [
         3.42,
@@ -37,7 +37,7 @@
       "registered": "2014-08-18T12:24:54 +04:00",
       "status": "withdrawn",
       "peyCompleted": false,
-      "hoursCompelted": false,
+      "hoursCompleted": false,
       "graduationYear": 2016,
       "gpa": [
         2.77,
@@ -68,7 +68,7 @@
       "registered": "2014-02-17T05:26:26 +05:00",
       "status": "registered",
       "peyCompleted": true,
-      "hoursCompelted": true,
+      "hoursCompleted": true,
       "graduationYear": 2018,
       "gpa": [
         2.67,
@@ -97,7 +97,7 @@
       "registered": "2014-02-17T10:30:42 +05:00",
       "status": "withdrawn",
       "peyCompleted": false,
-      "hoursCompelted": false,
+      "hoursCompleted": false,
       "graduationYear": 2019,
       "gpa": [
         3.21,
@@ -125,7 +125,7 @@
       "registered": "2014-08-20T10:20:25 +04:00",
       "status": "withdrawn",
       "peyCompleted": false,
-      "hoursCompelted": true,
+      "hoursCompleted": true,
       "graduationYear": 2019,
       "gpa": [
         3.94,
@@ -155,7 +155,7 @@
       "registered": "2015-08-14T01:43:14 +04:00",
       "status": "withdrawn",
       "peyCompleted": false,
-      "hoursCompelted": false,
+      "hoursCompleted": false,
       "graduationYear": 2018,
       "gpa": [
         2.09,
@@ -184,7 +184,7 @@
       "registered": "2015-03-11T05:01:30 +04:00",
       "status": "withdrawn",
       "peyCompleted": false,
-      "hoursCompelted": true,
+      "hoursCompleted": true,
       "graduationYear": 2018,
       "gpa": [
         3.64,
@@ -212,7 +212,7 @@
       "registered": "2014-07-23T05:32:48 +04:00",
       "status": "probation",
       "peyCompleted": false,
-      "hoursCompelted": true,
+      "hoursCompleted": true,
       "graduationYear": 2019,
       "gpa": [
         2.55,
@@ -242,7 +242,7 @@
       "registered": "2014-11-04T12:05:33 +05:00",
       "status": "registered",
       "peyCompleted": true,
-      "hoursCompelted": false,
+      "hoursCompleted": false,
       "graduationYear": 2016,
       "gpa": [
         2.53,
@@ -271,7 +271,7 @@
       "registered": "2014-12-26T03:32:57 +05:00",
       "status": "probation",
       "peyCompleted": true,
-      "hoursCompelted": false,
+      "hoursCompleted": false,
       "graduationYear": 2019,
       "gpa": [
         1.18,
@@ -301,7 +301,7 @@
       "registered": "2014-06-15T11:43:25 +04:00",
       "status": "probation",
       "peyCompleted": false,
-      "hoursCompelted": true,
+      "hoursCompleted": true,
       "graduationYear": 2017,
       "gpa": [
         2.11,
@@ -331,7 +331,7 @@
       "registered": "2014-02-13T04:07:24 +05:00",
       "status": "probation",
       "peyCompleted": false,
-      "hoursCompelted": false,
+      "hoursCompleted": false,
       "graduationYear": 2017,
       "gpa": [
         2.78,
@@ -359,7 +359,7 @@
       "registered": "2014-05-29T02:19:09 +04:00",
       "status": "withdrawn",
       "peyCompleted": true,
-      "hoursCompelted": false,
+      "hoursCompleted": false,
       "graduationYear": 2019,
       "gpa": [
         1.04,
@@ -391,7 +391,7 @@
       "registered": "2016-03-03T06:34:14 +05:00",
       "status": "probation",
       "peyCompleted": true,
-      "hoursCompelted": true,
+      "hoursCompleted": true,
       "graduationYear": 2017,
       "gpa": [
         1,
@@ -422,7 +422,7 @@
       "registered": "2016-04-08T07:02:18 +04:00",
       "status": "probation",
       "peyCompleted": false,
-      "hoursCompelted": false,
+      "hoursCompleted": false,
       "graduationYear": 2016,
       "gpa": [
         1.48,
@@ -455,7 +455,7 @@
       "registered": "2014-05-28T07:09:17 +04:00",
       "status": "registered",
       "peyCompleted": true,
-      "hoursCompelted": true,
+      "hoursCompleted": true,
       "graduationYear": 2017,
       "gpa": [
         1.63,
@@ -487,7 +487,7 @@
       "registered": "2014-09-13T06:21:07 +04:00",
       "status": "registered",
       "peyCompleted": true,
-      "hoursCompelted": true,
+      "hoursCompleted": true,
       "graduationYear": 2016,
       "gpa": [
         2.25,
@@ -520,7 +520,7 @@
       "registered": "2014-04-22T08:06:35 +04:00",
       "status": "registered",
       "peyCompleted": false,
-      "hoursCompelted": true,
+      "hoursCompleted": true,
       "graduationYear": 2019,
       "gpa": [
         3.74,
@@ -551,7 +551,7 @@
       "registered": "2016-01-06T04:15:08 +05:00",
       "status": "probation",
       "peyCompleted": false,
-      "hoursCompelted": false,
+      "hoursCompleted": false,
       "graduationYear": 2017,
       "gpa": [
         3.74,
@@ -580,7 +580,7 @@
       "registered": "2015-10-14T07:22:00 +04:00",
       "status": "probation",
       "peyCompleted": true,
-      "hoursCompelted": true,
+      "hoursCompleted": true,
       "graduationYear": 2018,
       "gpa": [
         2.21,
