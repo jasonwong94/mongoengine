@@ -2,17 +2,15 @@ from mongoengine import *
 import datetime
 import lists
 
-def printStudentInfo(Student):
-	print ("%s %s %d" % (Student.name, Student.discipline, Student.year)) 
-	return
-
 class CustomQuerySet(QuerySet):
-	def filter_by_year(self, year_):
-		return self.filter(year= year_)
-
 	def is_graduation_elliglble(self):
 		return self.filter(
 			Q(academicInfo__peyCompleted= True) | Q(academicInfo__hoursCompleted= True) 
+		)
+
+	def find_by_discipline_and_year(self, discipline_, year_):
+		return self.filter(
+			Q(discipline = discipline_) & Q(year = year_)
 		)
 
 	def find_student(self, name_):
@@ -50,14 +48,3 @@ class StudentSchema(Document):
 		'collection': 'students',
 		'queryset_class': CustomQuerySet
 	}
-
-#for now we'll just pass in the required params..
-
-def isDeansList(student):
-	studentGPA = student.academicInfo['gpa']
-	meanGPA = sum(studentGPA)/len(studentGPA)
-	numDeansList = 0
-	if meanGPA >= 2.7:
-		numDeansList += 1
-	print ("%.2f %d" % (meanGPA, numDeansList) )
-
