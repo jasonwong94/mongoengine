@@ -1,8 +1,6 @@
 from mongoengine import *
 import datetime
-
-DISCIPLINES = ('Chemical', 'Civil', 'Electrical', 'Industrial', 'Mechanical', 'Materials', 'TrackOne')
-ACADEMIC_STATUS = ('registered', 'withdrawn', 'probation')
+import lists
 
 def printStudentInfo(Student):
 	print ("%s %s %d" % (Student.name, Student.discipline, Student.year)) 
@@ -22,7 +20,7 @@ class CustomQuerySet(QuerySet):
 
 class AcademicInfoSchema(EmbeddedDocument):
 	registered = DateTimeField(required=True)
-	status  = StringField( max_length=20, choices = ACADEMIC_STATUS, required=True )
+	status  = StringField( max_length=20, choices = lists.ACADEMIC_STATUS, required=True )
 	peyCompleted = BooleanField()
 	hoursCompleted = BooleanField()
 	graduationYear = IntField( min_value = 2016, max_value = 2019, required=True)
@@ -41,7 +39,7 @@ class ContactInfoSchema(EmbeddedDocument):
 class StudentSchema(Document):
 	name = StringField(max_length=50, required=True )
 	year = IntField(min_value = 1, max_value = 4)
-	discipline = StringField( max_length=20, choices= DISCIPLINES)
+	discipline = StringField( max_length=20, choices= lists.DISCIPLINES)
 
 	#EmbeddedDocuments 
 	registrationInfo = EmbeddedDocumentField(RegistrationInfoSchema)
@@ -54,34 +52,6 @@ class StudentSchema(Document):
 	}
 
 #for now we'll just pass in the required params..
-def addStudent():
-	name_ = raw_input("> Enter a student name: ")
-	year_ = raw_input("> Enter graduation year: ")
-	discipline_ = raw_input("> Enter student discipline: ")
-
-	academicInfo_ = AcademicInfoSchema(
-		registered = datetime.datetime.now(),
-		graduationYear = year_,
-		status = 'registered',
-	)
-
-	registrationInfo_ = RegistrationInfoSchema(
-		international = False
-	)
-
-	contactInfo_ = ContactInfoSchema(
-	)
-
-
-	student = StudentSchema(
-		name = name_,
-		discipline = discipline_,
-		year = 1,
-		registrationInfo = registrationInfo_,
-		academicInfo = academicInfo_,
-		contactInfo = contactInfo_
-	)
-	student.save()
 
 def isDeansList(student):
 	studentGPA = student.academicInfo['gpa']

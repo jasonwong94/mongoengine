@@ -1,0 +1,54 @@
+{
+	"name": "Checmical",
+	"students": [
+		ObjectId("57368c3827aca91a957a789a"),
+		ObjectId("57368c388a38160b22ee9d64"),
+		ObjectId("57368c3866fe70988cd71d58"),
+		ObjectId("57368c385e901548f1f1c16a")
+	]
+}
+
+{
+	"name": "TrackOne",
+	"students": [
+		ObjectId("57368c38871f46ffb8f3ef20"),
+		ObjectId("57368c38d9f8e13442cd903d"),
+		ObjectId("57368c3845ad833a4959e58d")
+	]
+}
+
+{
+	"name": "Industrial",
+	"students": [
+		ObjectId("57368c3895f90ff38f0932fc"),
+		ObjectId("57368c387b1d6350adec2b70"),
+		ObjectId("57368c380a7740a19a52141c")
+	]
+}
+
+{
+	"name": "Civil",
+	"students": [
+		ObjectId("57368c384455a7dc985ade15"),
+		ObjectId("57368c38ee9de5e0ef3e9d9d"),
+		ObjectId("57368c38436b039153f5951d"),
+		ObjectId("57368c38b234f189096d683c"),
+		ObjectId("57368c3836816d9d25c3c7e4")
+	]
+}
+
+{
+	"name": "Mechanical",
+	"students": [
+		ObjectId("57368c384d855ac61e861c4f"),
+		ObjectId("57368c38e857b8e7e07655cf"),
+		ObjectId("57368c38fa4f12acb590990d")
+	]
+}
+
+{
+	"name": "Electrical",
+	"students": [
+		ObjectId("57368c38b7fba4f5dbdd8e10")
+	]
+}
