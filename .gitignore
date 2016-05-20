@@ -1,0 +1,3 @@
+*.pyc
+/incompleted/*.pyc
+/completed/*.pyc
