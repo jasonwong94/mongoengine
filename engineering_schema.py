@@ -9,7 +9,7 @@ def printDisciplineInfo(Discipline):
 
 class DisciplineSchema(Document):
 	name = StringField( max_length=20, choice = lists.DISCIPLINES, unique = True)
-	students = ListField(ReferenceField(students_schema.StudentSchema, dbref = False))
+	students = ListField(ReferenceField(students_schema.StudentSchema, dbref = False, reverse_delete_rule=PULL))
 
 	meta = {
 		'collection': 'engineering' 
